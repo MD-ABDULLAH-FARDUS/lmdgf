@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Markdown</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <kbd>
+        <h1 style="text-align: center;">Markdown Github <span style="color: yellowgreen">Flavour</span></h1>
+    </kbd>
+    <kbd>
+        <h2 id="headings">1. Heading Style in markdown github flavour</h2>
+        <pre>
+            ৬ ধরণের Heading রয়েছে এবং এদের প্রয়োগ প্রণালী যথাক্রমে...
+            # Heading
+            ## Heading 2
+            ### Heading 3
+            #### Heading 4
+            ##### Heading 5
+            ###### Heading 6
+        </pre>
+    </kbd>
+    <kbd>
+        <h2 id="paragraph">2. Paragraph Style in markdown github flavour</h2>
+        <pre>
+            সাধারণত যেভাবে p tag এর মধ্যে আমরা paragraph লিখে থাকি
+            markdown এ ও একইভাবে লেখা যায়। এতে কোনো ভিন্নতা নেই। তবে
+            লেখার align right/center করার নিয়মটি হলো...
+            &lt;p align="center"&gt;This sentence shows in center&lt;/p&gt;
+            লেখাকে এক একটি লাইনে বিন্যস্ত করার জন্য enter দিয়ে পরবর্তী লাইনে গিয়ে লিখলেই 
+            তা এক একটি লাইনে বিন্যস্ত হয়ে যাবে। 
+        </pre>
+    </kbd>
+    <kbd>
+        <h2>3. Emphasis Style in markdown github flavour</h2>
+        <pre>
+            <b>লেখাকে bold করার জন্য এখানে ব্যবহার করা হয় যথাক্রমে...</b>
+            **Bold** (পূর্বে এবং পরে পর পর দুটি করে স্টার চিহ্ন দিতে হবে)
+            __bold__ (পূর্বে এবং পরে পর পর দুটি আন্ডারস্কোর চিহ্ন দিতে হবে) 
+            <b>লেখাকে italic করার জন্য এখানে ব্যবহার করা হয় যথাক্রমে...</b>
+            *italic* (পূর্বে এবং পরে একটি স্টার চিহ্ন দিতে হবে)
+            _italic_ (পূর্বে এবং পরে একটি আন্ডারস্কোর চিহ্ন দিতে হবে)
+            <i><b>লেখাকে একই সাথে bold এবং italic করা হয় যথাক্রমে...</b></i>
+            **_bold&italic_** 
+            (পূর্বে পর পর দুটি স্টার ও একটি আন্ডারস্কোর চিহ্ন এবং 
+            পরে একটি আন্ডারস্কোর ও পর পর দুটি স্টার চিহ্ন দিতে হবে)
+            __*bold&italic*__
+            (পূর্বে পর পর দুটি আন্ডারস্কোর ও একটি স্টার চিহ্ন এবং 
+            পরে একটি স্টার ও পর পর দুটি আন্ডারস্কোর চিহ্ন দিতে হবে)
+            <b style="text-decoration: line-through;">লেখার মধ্যে দিয়ে লাইন টানা অর্থাৎ strikethrough করা হয় যথাক্রমে...</b>
+            ~~strikethrough~~(পূর্বে এবং পরে পর পর দুটি টিল্ডার চিহ্ন দিতে হবে)
+        </pre>
+    </kbd>
+    <kbd>
+        <h2>4. Blockquote Style in markdown github flavour</h2>
+        <pre>
+            কোনো লেখাকে blockquote আকারে দেখানোর জন্য > চিহ্ন দিতে হবে।
+            যদি আরো কোনো sub blockquote দেখাতে হয় সেক্ষেত্রে >> চিহ্ন দিতে হবে। 
+        </pre>
+    </kbd>
+    <kbd>
+        <h2>5. Link Style in markdown github flavour</h2>
+        <pre>
+            লিংক প্রদর্শন করার পদ্ধতি সমূহ যথাক্রমে...
+            [Google](https://google.com) 
+            (এতে করে শুধু Google লেখাটি লিংকে পরিণত হবে)
+            [Google](https://google.com "search engine")
+            (এতে করে Google লেখায় hover করলে টাইটেল দেখাবে search engine)
+            <https://google.com>
+            (এতে করে সরাসরি লিংক হয়ে যাবে)
+            [google][1]
+            [google][2]
+            [1]: &lt;https://google.com&gt;
+            [2]: &lt;https://google.com&gt; "search engine" (টাইটেল দেখানোর জন্য)
+            (কোনো paragraph এর মধ্যে লিংক জাতীয় word এর ব্যবহার বেশি হলে সেক্ষেত্রে
+            এভাবে [1][2] সিরিয়াল আকারে লিখে পরবর্তীতে নিচে সেই সকল সিরিয়ালের লিংক তৈরি
+            করা যায়। এতে করে কোড হিজিবিজি মনে হয় না এবং রিডেবল হয়।)
+        </pre>
+    </kbd>
+    <kbd>
+        <h2>6. List Style in markdown github flavour</h2>
+        <pre>
+            দুই ধরণের লিস্ট আমরা দেখে থাকি order &  unorder list
+            এই order & unorder list লেখার পদ্ধতি যথাক্রমে... 
+            1. Item one (যেকোনো একটি সংখ্যা,ডট এবং একটি স্পেস)
+            1. Item two 
+                1. sub item one (ট্যাব অথবা ৪টি অক্ষরের সমপরিমাণ খালি রাখা)
+                1. sub item two
+            - unorder item one (একটি ড্যাস চিহ্ন তারপর স্পেস) 
+            - unorder item two 
+                - unorder sub item one (ট্যাব অথবা ৪টি অক্ষরের সমপরিমাণ স্পেস)
+                - unorder sub item two 
+        </pre>
+    </kbd>
+    <kbd>
+        <h2>7. Checkbox Style in markdown github flavour</h2>
+        <pre>
+            দুই ধরণের checkbox তৈরি করার নিয়মাবলি যথাক্রমে... 
+            - [ ] unchecked (একটি ডেস এবং তৃতীয় বন্ধনীর মধ্যে একটি স্পেস)
+            - [x] checked (একটি ডেস এবং তৃতীয় বন্ধনীর মধ্যে একটি এক্স)
+        </pre>
+    </kbd>
+    <kbd>
+        <h2>8. Collapsible Style in markdown and github flavour</h2>
+        <pre>
+            কোন paragraph/heading/link প্রভৃতিকে collapsible করা হয় যথাক্রমে... 
+            &lt;details&gt; (এতে করে collapsible arrow তৈরি হবে)
+                &lt;summary&gt;Click to see what is inside&lt;/summary&gt;
+                (এতে করে একটি Title তৈরি হবে)
+                You are watching this sentence from collapsible...
+                (এই লেখাটিই দেখাবে যখন collpasible arrow তে ক্লিক করা হবে)
+                `&lt;h1&gt;Something&lt;/h1&gt;`
+                (html tag লেখার জন্য বেক টিক ` চিহ্ন ব্যবহার করা হয়)
+            &lt;/details&gt;
+
+        </pre>
+    </kbd>
+    <kbd>
+        <h2>9. Table Style in markdown and github flavour</h2>
+        <pre>
+            table এর মধ্যে table head, table row & table data থাকে
+            আর এসব তৈরি করা হয় যথাক্রমে... 
+            Name | Class | Roll (এখানে এক একটি header/column আলাদা করার জন্য | চিহ্ন দেয়া হয়)
+            ---- | ----- | ---- (এখানে একটা ডেস চিহ্ন দিলেই নিচে border তৈরি হয়ে যাবে)
+            Sony | XII   | 79
+            Boby | VIII  | 39
+        </pre>
+    </kbd>
+    <kbd>
+        <h2>10. Image Style in markdown and github flavour</h2>
+        <pre>
+            image/logo সংযুক্ত করার পদ্ধতি যথাক্রমে... 
+            ![logo](../logo/logo.png) 
+            (প্রথমে আশ্চর্যবোধক চিহ্ন দিতে হবে তৃতীয় বন্ধনীর মধ্যে image/loge এর 
+            title দিতে হবে, এরপর প্রথম বন্ধনীর মধ্যে image/logo path দিতে হবে)
+            [![logo](../logo/logo.png)](https://google.com)
+            (image/logo কে লিংকে পরিণত করতে এভাবে পুরো image/logo 
+            কে তৃতীয় বন্ধনীর মধ্যে রেখে প্রথম বন্ধনীর মধ্যে link address দিতে হবে)
+            &lt;p align="center"&gt;&lt;img src="../logo/log.png" width="100" title="logo"&gt;&lt;/p&gt;
+            (image/logo কে center align করতে একটি p tag এর মধ্যে নিতে হবে এবং p tag
+            এর ভেতর align হিসেবে center উল্লেখ করে দিতে হবে।)
+        </pre>
+    </kbd>
+    <kbd>
+        <h2>11. Codeblocks Style in markdown and github flavour</h2>
+        <pre>
+            কোনো কোডকে ব্লক আকারে দেখানো পদ্ধতি যথাক্রমে... 
+            ``` (পর পর তিনটা বেক টিক চিহ্ন দিলেই লিখিত কোড ব্লক আকারে দেখাবে)
+                &lt;h1&gt;Codeblocks&lt;/h1&gt;
+            ```
+            ```html (পর পর তিনটি বেক টিকের পর html কথাটি উল্লেখ করে দিলে html এর tag color show করবে)
+                <span style="color:tomato">&lt;h1&gt;</span>github color flavour<span style="color:tomato">&lt;/h1&gt;</span>
+            ```
+            ```javascript (javascript কথাটি উল্লেখ করলে javascript এর tag color show করবে)
+                <span style="color:yellowgreen">console.log</span>('github color flavour')
+            ```
+        </pre>
+    </kbd>
+    <kbd>
+        <h2>12. Badge Style in markdown and github flavour</h2>
+        <pre>
+            বেজ অনেকটা ইমেজের মতোই আর এটা দেখানোর পদ্ধতি যথাক্রমে... 
+            &lt;img src="https://img.shields.io/badge/idle%20teacher-it-brightgreen"&gt;
+            <span style="background-color: yellowgreen; padding: .2rem; font-size: 13px; border-radius: 3px 0 0 3px;">Idleteacher</span> <span style="background-color: #999999; padding: .2rem ; font-size: 13px; border-radius: 0 3px 3px 0; margin-left: -10px;">It</span>
+            (https://shields.io এই website থেকে custom badge বানানোর 
+            অপশন দেয়া আছে। সেখান থেকে নিজের পছন্দ অনুযায়ী badge বানিয়ে, সেই 
+            web address copy করে img এর src তে বসিয়ে দিলেই কাঙ্ক্ষিত বেজ 
+            দেখতে পাওয়া যাবে)
+        </pre>
+    </kbd>
+    <kbd>
+        <h2>13. Emoji_kbd_hr Style in markdown and github flavour</h2>
+        <pre>
+            Emoji add করার পদ্ধতি যথাক্রমে... 
+            :cursing_face: &#129324;
+            (emoji এর website থেকে code copy করে paste করে দিলেই emoji দেখাবে)
+            keyboard button এর মধ্যে কোনো লেখা দেখানোর পদ্ধতি যথাক্রমে... 
+            &lt;kbd&gt;ctrl&lt;/kbd&gt; + &lt;kbd&gt;c&lt;/kbd&gt; <kbd class="btn">ctrl</kbd> + <kbd class="btn">c</kbd>
+            hr দ্বারা html এ যে horizontal দাগ টানা হয় তেমনভাবে 
+            horizontal দাগ টানার পদ্ধতি যথাক্রমে... 
+            Horizontal line by star
+            *** (পর পর তিনটা স্টার দিলেই horizontal line তৈরি হয়ে যাবে)
+            ___ (পর পর তিনটা আন্ডারস্কোর দিলেই horizontal line তৈরি হয়ে যাবে)
+            <hr>
+        </pre>
+    </kbd>
+    <kbd>
+        <h2>14. Table of content Style in markdown and github flavour</h2>
+        <pre>
+            Table of content তৈরি করার পদ্ধতি যথাক্রমে... 
+            - [Headings](#headings) (তৃতীয় বন্ধনীর মধ্যে list item থাকবে এবং প্রথম বন্ধনীর ভেতরে id থাকবে)
+            - [Emphasis](#emphasis)
+
+            &lt;a name="headings"&gt;&lt;/a&gt; (a tag এর ভেতরে name লিখে সেই id দিতে হবে যেটাকে কল করতে হবে)
+            Headings
+            &lt;a name="emphasis"&gt;&lt;/a&gt;
+            Emphasis 
+        </pre>
+    </kbd>
+    <kbd>
+        <h2>15. Escapes & comment Style in markdown and github flavour</h2>
+        <pre>
+            Escape অর্থাৎ কোনো কিছু পরিহার করার পদ্ধতি যথাক্রমে... 
+            \- escape unorder list style 
+            (ফরওয়ার্ড স্ল্যাশ পূর্বে দিলেই যেভাবে ডেস দিলে unorder list style দেখাত সেটার পরিবর্তে ডেস দেখাবে)
+            Comment করার পদ্ধতি যথাক্রমে... 
+            [comment]:<> (comment process one)
+            [//]: <> (comment porcess two)
+            [//]: # (comment porcess three)
+        </pre>
+    </kbd>
+
+</body>
+</html>
