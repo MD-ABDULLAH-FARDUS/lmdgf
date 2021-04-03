@@ -36,6 +36,11 @@
 ```
 <a name="paragraph"></a>
 ## Paragraph
+
+<p>Default left align paragraph</p>
+<p align="center">Center align paragraph</p>
+<p align="right">Right align paragraph</p>
+
 ```html
 <p>Default left align paragraph</p>
 <p align="center">Center align paragraph</p>
