@@ -13,3 +13,9 @@
 6. [Image](#image)
 7. [Codeblock](#codeblock)
 8. [Badge](#badge)
+9. [Emoji_khd_hr](#emoji-kbd-hr)
+10. [Table of content](#table-of-content)
+11. [Escape & Comment](#escape-n-comment)
+
+<a name="headings"></a>
+##Headings
