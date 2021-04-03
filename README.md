@@ -46,3 +46,19 @@
 <p align="center">Center align paragraph</p>
 <p align="right">Right align paragraph</p>
 ```
+<a name="emphasis"></a>
+## Emphasis
+
+**Bold Text** <br>
+*Italic Text* <br>
+**_Bold and Italic Text_** <br>
+~~Striketrough Text~~
+```
+**Bold Text**
+__Bold Text__
+*Italic Text*
+_Italic Text_
+**_Bold and Italic Text_**
+__*Bold and Italic Text*__
+~~Striketrough Text~~
+```
