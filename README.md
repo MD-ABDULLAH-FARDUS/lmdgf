@@ -1,21 +1,32 @@
 # Learn Markdown Github Flavour
 
 ## Learing Topics
-1. [Headings](#headings)
-1. [Paragraph](#paragraph)
-1. [Emphasis](#emphasis)
-1. [Blockquote](#blockquote)
-1. [Link](#link)
-2. [List](#list)
-3. [Checkbox](#checkbox)
-4. [Collapsible](#collapsible)
-5. [Table](#table)
-6. [Image](#image)
-7. [Codeblock](#codeblock)
-8. [Badge](#badge)
-9. [Emoji_khd_hr](#emoji-kbd-hr)
-10. [Table of content](#table-of-content)
-11. [Escape & Comment](#escape-n-comment)
+- [Learn Markdown Github Flavour](#learn-markdown-github-flavour)
+  - [Learing Topics](#learing-topics)
+  - [1. Headings](#1-headings)
+- [Heading 1](#heading-1)
+  - [Heading 2](#heading-2)
+    - [Heading 3](#heading-3)
+      - [Heading 4](#heading-4)
+        - [Heading 5](#heading-5)
+          - [Heading 6](#heading-6)
+  - [2. Paragraph](#2-paragraph)
+  - [3. Emphasis](#3-emphasis)
+  - [4. Blockquote](#4-blockquote)
+  - [5. Link](#5-link)
+  - [6. List](#6-list)
+    - [Fruits name in oder list](#fruits-name-in-oder-list)
+    - [Fruits name in unorder list](#fruits-name-in-unorder-list)
+  - [7. Checkbox](#7-checkbox)
+  - [8. Collapsible](#8-collapsible)
+  - [9. Table](#9-table)
+  - [10. Image](#10-image)
+  - [11. Codeblock](#11-codeblock)
+  - [12. Badge](#12-badge)
+  - [13. Emoji_kbd_hr](#13-emoji_kbd_hr)
+  - [14. Table of content](#14-table-of-content)
+    - [Fruits](#fruits)
+    - [Vegetables](#vegetables)
 
 <a name="headings"></a>
 ## 1. Headings
@@ -202,3 +213,59 @@ console.log("This is javascript codeblock")
 
 \```
 ***
+
+<a name="badge"></a>
+## 12. Badge
+<img src="https://img.shields.io/badge/Learn%20Markdown%20Github%20Flavour-lmdgf-yellowgreen">
+
+```
+    <img src="https://img.shields.io/badge/Learn%20Markdown%20Github%20Flavour-lmdgf-yellowgreen">
+
+    To make your custom badge visit https://shields.io
+```
+
+<a name="emoji-kbd-hr"></a>
+## 13. Emoji_kbd_hr
+- Emoji :cursing_face:
+- kbd <kbd>ctrl</kbd> + <kbd>c</kbd>
+- hr <hr>
+```
+## 13. Emoji_kbd_hr
+- Emoji :cursing_face:
+- kbd <kbd>ctrl</kbd> + <kbd>c</kbd>
+- hr <hr>
+```
+
+<a name="table-of-content"></a>
+## 14. Table of content
+
+- [Fruits](#fruits)
+- [Vegetables](#vegetables)
+
+<a name="fruits"></a>
+### Fruits
+- Apple
+- Mango
+- Orange
+
+<a name="vegetables"></a>
+### Vegetables
+- Tomato
+- Cucumber
+- Chili
+```
+- [Fruits](#fruits)
+- [Vegetables](#vegetables)
+
+<a name="fruits"></a>
+### Fruits
+- Apple
+- Mango
+- Orange
+
+<a name="vegetables"></a>
+### Vegetables
+- Tomato
+- Cucumber
+- Chili
+```
