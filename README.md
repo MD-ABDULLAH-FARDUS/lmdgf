@@ -171,3 +171,34 @@ To maintain the serial number of oder list you need not to think. Just write dow
 
 [![click to visit](lmdgf.png)](https://md-abdullah-fardus.github.io/lmdgf/)
 ```
+
+<a name="codeblock"></a>
+## 11. Codeblock
+    This codeblock created on keeping 4 letters space/one single tab.
+```
+This is normal codeblock
+```
+```html
+<h1>This is html codeblock</h1>
+```
+```javascript
+console.log("This is javascript codeblock")
+```
+
+
+***
+\```
+This is normal codeblock
+
+\```html
+
+\<h1>This is html codeblock\</h1>
+
+\```
+
+\```javascript
+
+console.log("This is javascript codeblock")
+
+\```
+***
