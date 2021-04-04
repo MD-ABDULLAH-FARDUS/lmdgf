@@ -77,4 +77,5 @@ __*Bold and Italic Text*__
 
 
 I am trying to share my learning topics with others in my native language through [lmdgf][1]. Visting [lmdgf][1] one can easily understand markdown github flavour in Bangla.
-[1]: <https://md-abdullah-fardus.github.io/lmdgf/>
+
+[1]: <https://md-abdullah-fardus.github.io/lmdgf/> "click to know more"
