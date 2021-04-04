@@ -62,3 +62,19 @@ _Italic Text_
 __*Bold and Italic Text*__
 ~~Striketrough Text~~
 ```
+<a name="blocquote"></a>
+## Blockquote
+
+> This is a blockquote text
+>> This a sub blockquote text
+```
+> This is a blockquote text
+>> This a sub blockquote text
+```
+<a name="link"></a>
+## Link
+[lmdgf](https://md-abdullah-fardus.github.io/lmdgf/ "Learn Markdown Github Flavour")
+
+
+I am trying to share my learning topics with others in my native language through [lmdgf][1]. Visting [lmdgf][1] one can easily understand markdown github flavour in Bangla.
+[1]: <https://md-abdullah-fardus.github.io/lmdgf/>
