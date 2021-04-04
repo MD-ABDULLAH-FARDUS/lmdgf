@@ -113,3 +113,40 @@ To maintain the serial number of oder list you need not to think. Just write dow
 - Guava
 - Grape
 ```
+<a name="checkbox"></a>
+## 7. Checkbox
+
+- [x] Checked
+- [ ] Unchecked
+```
+- [x] Checked
+- [ ] Unchecked
+```
+
+<a name="collapsible"></a>
+## 8. Collapsible
+
+<details>
+    <summary>Click here to see details</summary>
+
+    Here two tags are available. Parent tag name is details and child tag name is summary which plays the role of a title. 
+</details>
+
+<a name="table"></a>
+## 9. Table
+| Items No | Items Name |
+| -------- | ---------- |
+| 1        | html       |
+| 2        | css        |
+| 3        | javascript |
+```
+| Items No | Items Name |
+| -------- | ---------- |
+| 1        | html       |
+| 2        | css        |
+| 3        | javascript |
+```
+
+<a name="image"></a>
+## 10. Image
+![Learn markdown github flavour logo](lmdgf.png)
