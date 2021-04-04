@@ -18,7 +18,7 @@
 11. [Escape & Comment](#escape-n-comment)
 
 <a name="headings"></a>
-## Headings
+## 1. Headings
 ***
 # Heading 1
 ## Heading 2
@@ -35,7 +35,7 @@
 ###### Heading 6
 ```
 <a name="paragraph"></a>
-## Paragraph
+## 2. Paragraph
 
 <p>Default left align paragraph</p>
 <p align="center">Center align paragraph</p>
@@ -47,7 +47,7 @@
 <p align="right">Right align paragraph</p>
 ```
 <a name="emphasis"></a>
-## Emphasis
+## 3. Emphasis
 
 **Bold Text** <br>
 *Italic Text* <br>
@@ -63,7 +63,7 @@ __*Bold and Italic Text*__
 ~~Striketrough Text~~
 ```
 <a name="blocquote"></a>
-## Blockquote
+## 4. Blockquote
 
 > This is a blockquote text
 >> This a sub blockquote text
@@ -72,10 +72,44 @@ __*Bold and Italic Text*__
 >> This a sub blockquote text
 ```
 <a name="link"></a>
-## Link
+## 5. Link
 [lmdgf](https://md-abdullah-fardus.github.io/lmdgf/ "Learn Markdown Github Flavour")
 
 
 I am trying to share my learning topics with others in my native language through [lmdgf][1]. Visting [lmdgf][1] one can easily understand markdown github flavour in Bangla.
 
 [1]: <https://md-abdullah-fardus.github.io/lmdgf/> "click to know more"
+```
+[lmdgf](https://md-abdullah-fardus.github.io/lmdgf/ "Learn Markdown Github Flavour")
+
+
+I am trying to share my learning topics with others in my native language through [lmdgf][1]. Visting [lmdgf][1] one can easily understand markdown github flavour in Bangla.
+
+[1]: <https://md-abdullah-fardus.github.io/lmdgf/> "click to know more"
+```
+
+<a name="list"></a>
+## 6. List 
+
+### Fruits name in oder list
+1. Apple
+1. Mango
+1. Orange 
+
+### Fruits name in unorder list
+- Pine apple
+- Guava
+- Grape
+```
+### Fruits name in oder list
+1. Apple
+1. Mango
+1. Orange 
+
+To maintain the serial number of oder list you need not to think. Just write down any number and put a single dot after that number.
+
+### Fruits name in unorder list
+- Pine apple
+- Guava
+- Grape
+```
