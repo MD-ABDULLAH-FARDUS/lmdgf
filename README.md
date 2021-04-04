@@ -159,7 +159,7 @@ To maintain the serial number of oder list you need not to think. Just write dow
 </p>
 
 [![click to visit](lmdgf.png)](https://md-abdullah-fardus.github.io/lmdgf/)
-```
+```html
 ![Learn markdown github flavour](lmdgf.png)
 
 <p align="center">
