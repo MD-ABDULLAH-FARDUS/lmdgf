@@ -149,4 +149,25 @@ To maintain the serial number of oder list you need not to think. Just write dow
 
 <a name="image"></a>
 ## 10. Image
-![Learn markdown github flavour logo](lmdgf.png)
+![Learn markdown github flavour](lmdgf.png)
+
+<p align="center">
+<img src="lmdgf.png" width="50" title="learn markdown github flavour logo">
+</p>
+<p align="right">
+<img src="lmdgf.png" width="50" title="learn markdown github flavour logo">
+</p>
+
+[![click to visit](lmdgf.png)](https://md-abdullah-fardus.github.io/lmdgf/)
+```
+![Learn markdown github flavour](lmdgf.png)
+
+<p align="center">
+<img src="lmdgf.png" width="50" title="learn markdown github flavour logo">
+</p>
+<p align="right">
+<img src="lmdgf.png" width="50" title="learn markdown github flavour logo">
+</p>
+
+[![click to visit](lmdgf.png)](https://md-abdullah-fardus.github.io/lmdgf/)
+```
